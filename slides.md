@@ -16,9 +16,9 @@ CNG2026 · Oct 8, 2026 · Snowbird, Utah, USA
 ::right::
 
 <LiveDemo
-  src="https://ui.source.coop/iframe.html?id=features-home-liveglobe--default&viewMode=story&globals=appearance%3Adark"
+  src="https://ui.source.coop/iframe.html?id=features-home-liveglobe--live-traffic&viewMode=story&globals=appearance%3Adark"
   :bar="false"
-  :crop="24"
+  :crop="40"
   :lazy="false"
 />
 
@@ -31,12 +31,11 @@ layout: default
 # Introductions
 
 <div class="person">
-  <div class="who">
-    <div class="name">Anthony Lukach</div>
-    <code class="handle">@alukach</code>
-  </div>
   <div class="facts">
-    <div class="fact"><span>Role</span>Cloud Engineer @ Development Seed</div>
+    <div class="fact name"><span>Name</span>Anthony Lukach</div>
+    <div class="fact"><span>Location</span>Nelson, BC, Canada</div>
+    <div class="fact"><span>Company</span>Development Seed</div>
+    <div class="fact"><span>Role</span>Cloud Engineer</div>
     <div class="fact"><span>On Source Cooperative</span>Since ~April 2025</div>
   </div>
 </div>
