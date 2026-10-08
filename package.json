@@ -1,0 +1,24 @@
+{
+  "name": "tierlist-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "slidev --open=false --remote",
+    "build": "slidev build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "^0.25.0",
+    "vuedraggable": "^4.1.0",
+    "vue": "^3.5.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "@slidev/types": "^53.0.0"
+  },
+  "packageManager": "pnpm@8.15.5"
+}
