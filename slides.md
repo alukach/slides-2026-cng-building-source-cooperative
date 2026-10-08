@@ -105,6 +105,12 @@ layout: default
 layout: default
 ---
 
+<LiveDemo url src="https://source.coop" :scale="0.5" />
+
+---
+layout: default
+---
+
 # Architecture
 
 <ArchitectureDiagram />
@@ -153,7 +159,7 @@ Rebuild UI from scratch
 
 </div>
 
-<LiveDemo src="https://source.coop" :scale="0.5" />
+<LiveDemo src="https://source.coop/products" :scale="0.5" />
 
 </div>
 
